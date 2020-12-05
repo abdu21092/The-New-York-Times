@@ -1,101 +1,263 @@
-body {
-    background-color: #ffffff;
+navb {
+    position: sticky;
+
 }
 
-.logo {
-    width: 400px;
-    margin: 0 270px;
-    pad
-    
+.sp1{
+    font-size:larger;
 }
 
-a {
-    color: #000000;
-    
-    
-        
-}
-
-
-nav {
-    /* position: fixed; */
-    /* z-index: 5; */
-    /* height: 40px; */
-    /* margin: 10px 0px; */
-}
-
-.left,
-.logo,
-.right {
-
+.rasm,
+.chap,
+.ong{
     display: inline-block;
-    /* padding-bottom: 30px; */
+    padding: 20px 0px;
+   
     
 }
 
-.underphoto {
-    margin-left: 15%;
-    color: #7f667f;
-
+.logo{
+    font-size: 20px;
+    width: 300px;
+    height: 25px;
+    margin-bottom: 0px;
+    margin-top: 10px;
 }
 
-button {
-    background-color: #567b95;
-    color: #e4ffff;
-    height: 30px;
-    border-radius: 5px;
-
+.ong{
+    margin-left: 220px;
+    
 }
 
-.name {
-    color: #88a8d1;
+button{
+   background-color: #567b95;
+   color: white; 
+   padding: 10px;  
+   border-radius: 5px;
+    
+}
+
+.position p{
+    width: 180px;
     font-size: 12px;
+    position: absolute;
 }
 
-.left,
-.right {
-    margin-bottom: 25px;
-
+.rasm{
+    margin-left: 150px;
 }
 
-.fa-search {
-    margin: 0 20px;
-}
-
-h1 {
+h1,
+.account {
     text-align: center;
-}
-
-h3 {
-    /* width: fit-content; */
-    text-align: center;
-
-}
-
-.date_icon {
-    display: inline;
-}
-
-.date {
-    /* font: bold; */
-
-}
-
-.main {
-    margin-left: 230px;
-}
-
-.space {
-    padding-right: 50px;
 }
 
 img {
-    position: relative;
     width: 945px;
     height: 531px;
-    left: 15%;
+    margin-left: 15%;
 }
 
-* { 
-    border: 1px solid red;
+.underphoto, .theory {
+    margin-left: 15%;
+    margin-right: 15%;
+    
 }
+
+figcaption p span {
+    color: lightgrey;
+    
+}
+
+a:hover {
+    color: gray;
+  }
+
+.main {
+    width:600px;
+    margin: 0  auto;
+}
+
+aside h3 {
+    margin-left: 10px;
+}
+
+aside {
+    float: right;
+    width: 270px;
+    margin-right: 25px;
+    position: relative;
+    bottom: 80px;
+}
+
+.aside_bar {
+    height: 100px;
+}
+
+.mini_pic img {
+    width: 80px;
+    height: 90px;
+}
+
+.mini_pic {
+    float: left;
+    width: 100px;
+}
+
+.mini_text {
+    float: right;
+    width: 150px;
+    
+}
+
+.mini_text a p {
+    margin: 0;
+}
+
+.for-image {
+    width: 950px;
+    /* height: 800px; */
+}
+
+.parabola{
+    width: 600px;
+    height: 401px;
+}
+
+li {
+    display: inline;
+    margin: 3px;
+}
+
+.fa-facebook-f {
+    margin-left: 270px;
+}
+
+/* .account {
+    border-top: 1px solid lightslategray;
+    border-bottom: 1px solid lightslategray;
+} */
+
+.center_border {
+    border-bottom: 2px solid gray;
+    width: 60px;
+    margin: 0 auto;
+}
+.date {
+    margin-left: -40px;
+}
+
+h2 {
+    margin: 0 auto;
+}
+
+.author {
+    /* text-decoration: none;
+    color: grey; */
+}
+
+.pic_comment {
+    position: relative;
+}
+
+.imgTheory {
+    /* position: relative; */
+    
+}
+
+.row1,
+.row2 {
+    position: absolute;
+    margin-left: 200px;
+    
+}
+
+.row1 {
+    bottom: 200px;
+}
+
+.row2 {
+    top: 370px;
+}
+
+.row1 p,
+.row2 p {
+    display: inline-block;
+    width: 220px;
+    height: 171px;
+    margin: 8px;
+
+}
+
+.theo3 {
+    position: relative;
+    bottom: 18px;
+}
+
+.theo4 {
+    position: relative;
+    top: 17px;
+}
+
+.theo6,
+.theo7,
+.theo8 {
+    position: relative;
+    top: 19px;
+}
+
+
+.Larry {
+    color: grey;
+}
+
+i {
+    border-radius: 50%;
+    background-color: lightgray;
+    width: 18px;
+    height: 20px;
+}
+
+.fa-comment-alt:hover,
+.fa-bookmark:hover,
+.fa-share:hover,
+.fa-envelope:hover,
+.fa-twitter:hover,
+.fa-facebook-f:hover {
+    color: blue;
+    background-color: white;
+}
+
+.old_news {
+    /* float: left; */
+    border-top: 1px solid black;
+    width: 800px;
+
+}
+
+.vid_theme {
+    display: inline-block;
+    width: 180px;
+}
+
+.vids {
+    height: 120px;
+}
+
+
+.vids,
+.theme,
+.launch {
+    width: 180px;
+    margin: 0;
+}       
+
+.figure {
+    width: 0 auto;
+    /* padding: 0 auto; */
+}
+
+
+/* *{
+    border: 1px solid red;
+} */
